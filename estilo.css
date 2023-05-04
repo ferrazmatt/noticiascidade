@@ -63,7 +63,7 @@ ul {
  body.home #navegacao a#home,
  body.brasil #navegacao a#brasil,
  body.internacional #navegacao a#internacional,
- body.economia #navegacao a#economia,
+ body.futebol #navegacao a#futebol,
  body.saude #navegacao a#saude,
  body.ciencia #navegacao a#ciencia,
  body.fotos #navegacao a#fotos {
@@ -170,6 +170,7 @@ h3 {
 .destaque h3 {
     background: #b10333;
     color: #fff;
+    
 }
 .entrevista h3 {
     background: #de003e;
@@ -216,4 +217,27 @@ padding: 20px;
     width: 750px;
     margin: 0 auto;
     color: #fff;
+}
+
+/*tabela de artilheiro Premier League*/
+
+table { 
+    width: 100%;
+}
+th, td {
+    border-collapse: separate;
+    padding: 7px;
+}
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+tr.alternado {
+    background-color: #efefef;
+}
+tr:hover{
+    background-color: #b10333;
 }
